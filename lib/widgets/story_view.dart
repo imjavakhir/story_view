@@ -331,7 +331,7 @@ class StoryItem {
   factory StoryItem.inlineProviderImage(
     ImageProvider image, {
     Key? key,
-    Text? caption,
+    Widget? caption,
     bool shown = false,
     bool roundedTop = true,
     bool roundedBottom = false,
